@@ -127,7 +127,7 @@ export default function VideosBrowser({
         ))}
       </div>
 
-      {/* Pinned "What is Living Models?" video */}
+      {/* Pinned "What are Living Models?" video */}
       {pinned.length > 0 && (
         <div className="mb-10">
           {pinned.map(v => (

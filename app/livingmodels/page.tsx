@@ -5,7 +5,7 @@ import VideosBrowser from './VideosBrowser'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'What is Living Models?',
+  title: 'What are Living Models?',
   description: 'Video tutorials, feature demos, and educational content from Living Models.',
 }
 
@@ -40,7 +40,7 @@ export default async function VideosPage() {
   return (
     <div className="container px-4 md:px-6 mx-auto py-12">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold tracking-tighter mb-4">What is Living Models?</h1>
+        <h1 className="text-4xl font-bold tracking-tighter mb-4">What are Living Models?</h1>
         <p className="text-muted-foreground mb-10">
           Video tutorials, feature demos, and educational content.
         </p>

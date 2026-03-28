@@ -16,11 +16,11 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
           {/* Company Info */}
           <div className="space-y-3">
-            <h3 className="text-sm font-semibold">Hypothetical AI</h3>
+            <h3 className="text-sm font-semibold">Bear Brown, LLC</h3>
             <div className="text-sm text-muted-foreground space-y-1">
               <p>
-                <a href="mailto:hello@livingmodels.org" className="hover:text-foreground transition-colors">
-                  hello@livingmodels.org
+                <a href="https://www.bearbrown.co/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  bearbrown.co
                 </a>
               </p>
             </div>
@@ -37,7 +37,7 @@ export default function Footer() {
                 Living Models Substack
               </a>
               <Link href="/livingmodels" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                What is Living Models?
+                What are Living Models?
               </Link>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-8 pt-6 border-t text-center text-sm text-muted-foreground">
-          &copy; {currentYear} Hypothetical AI. All rights reserved.
+          &copy; {currentYear} Bear Brown, LLC. All rights reserved.
         </div>
       </div>
     </footer>

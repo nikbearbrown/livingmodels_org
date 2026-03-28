@@ -9,7 +9,7 @@ import ThemeToggle from '@/components/ThemeToggle'
 
 const NAV_ITEMS = [
   { name: 'Blog', href: '/blog' },
-  { name: 'What is Living Models?', href: '/livingmodels' },
+  { name: 'What are Living Models?', href: '/livingmodels' },
 ]
 
 const SOCIAL_LINKS = [
