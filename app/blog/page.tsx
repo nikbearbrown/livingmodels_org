@@ -6,7 +6,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Blog - Living Models',
-  description: 'Writing on the intersection of AI, humans, education, and technology by Living Models.',
+  description: 'Writing on causal inference, decision intelligence, and AI by Living Models.',
 }
 
 export default async function BlogPage() {
@@ -36,7 +36,7 @@ export default async function BlogPage() {
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold tracking-tighter mb-4">Living Models Blog</h1>
         <p className="text-muted-foreground mb-10">
-          Writing on the intersection of AI, humans, education, and technology.
+          Writing on causal inference, decision intelligence, and AI.
         </p>
         <BlogFeed posts={posts} />
       </div>

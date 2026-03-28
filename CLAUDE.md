@@ -1,7 +1,7 @@
 # CLAUDE.md — livingmodels.org
 
 ## Who this site is for
-Living Models — adaptive learning platform, white-label, institution-deployable AI education infrastructure. Operated by Living Models, LLC.
+Living Models — adaptive learning platform, white-label, institution-deployable AI education infrastructure. Operated by Living Models.
 
 Primary audiences:
 - Educators and instructional leaders looking for AI-powered learning tools
@@ -22,7 +22,7 @@ Primary audiences:
 - adm-zip (server-side Substack ZIP parsing)
 
 ## Founders
-Living Models, LLC was founded by **Nik Bear Brown** and **Srinivas Sridhar**.
+Living Models was founded by **Nik Bear Brown** and **Chris Selland**.
 
 ## Site structure
 1. `/` — Home (platform intro + services + connect)
@@ -38,9 +38,9 @@ Living Models, LLC was founded by **Nik Bear Brown** and **Srinivas Sridhar**.
 11. `/tools` — Tools directory (hybrid: filesystem artifacts + Neon DB link tools)
 12. `/tools/[slug]` — Artifact tool embed page (full-viewport iframe)
 13. `/about` — CV / bio page (prose format, founders info)
-14. `/privacy` — Privacy Policy for Living Models, LLC
-15. `/privacy/cookies` — Cookie Policy for Living Models, LLC (dedicated page)
-16. `/terms-of-service` — Terms of Service for Living Models, LLC
+14. `/privacy` — Privacy Policy for Living Models
+15. `/privacy/cookies` — Cookie Policy for Living Models (dedicated page)
+16. `/terms-of-service` — Terms of Service for Living Models
 17. `/substack` — Newsletter hub: card grid of all Substack sections
 18. `/substack/[section]` — Section page: description, "Follow on Substack" CTA, chronological article list
 19. `/substack/[section]/[slug]` — Full article: attribution banner, prose content, "Subscribe on Substack" footer CTA
@@ -72,7 +72,7 @@ Living Models, LLC was founded by **Nik Bear Brown** and **Srinivas Sridhar**.
 
 ### Footer (`/components/Footer/Footer.tsx`) — DONE
 Four-column grid layout:
-- **Company Info:** Living Models, LLC, 30 N Gould St Ste N, Sheridan WY 82801, livingmodels@humanitarians.ai- **Platform:** Links to Tools, Blog, About
+- **Company Info:** Living Models, hello@livingmodels.org- **Platform:** Links to Tools, Blog, About
 - **Connect:** GitHub, YouTube, Substack (text links)
 - **Legal:** Privacy Policy, Cookie Policy, Terms of Service
 - Bottom bar: copyright
@@ -86,7 +86,7 @@ Four-column grid layout:
 
 ## Home page (`/app/page.tsx`) — DONE
 Five sections, alternating white/muted/dark backgrounds:
-1. **Hero** (two-column): Left — h1 "Living Models", subtext "Also known as Medhavi", Sanskrit definition (मेधावी bold), "Request Demo" + "Contact Us" buttons (both mailto:livingmodels@humanitarians.ai). Right — YouTube embed (GN7yQntWJHU).
+1. **Hero** (two-column): Left — h1 "Living Models", subtext "Causal Intelligence tagline, "Read the Substack" + "View on GitHub" buttons. Right — YouTube embed (GN7yQntWJHU).
 2. **Transform Your Textbooks** (2×2 card grid, muted bg): Four feature cards — Conversational Textbooks, AI as Co-Instructor, Effortless Course Creation, Unified Learning Platform. Each with description + "Learn more" link (placeholder anchors).
 3. **Who Benefits from Living Models?** (3-column cards, dark bg): For Instructors, For Students, For Administrators — each with 4 bullet points.
 4. **Ready to Transform Your Courses?** (dark brown bg, bb-2 color): CTA section with "REQUEST A DEMO", "LEARN MORE" (/about), "CONTACT US" buttons.
@@ -273,7 +273,7 @@ Tiptap (ProseMirror-based) rich text editor, Substack-style:
 ## About page (`/app/about/page.tsx`) — DONE
 Prose-forward format with sections:
 - Platform intro
-- Founders (Nik Bear Brown and Srinivas Sridhar)
+- Founders (Nik Bear Brown and Chris Selland)
 - Mission
 - What We Build
 - Humanitarians AI (501c3, Fellows Program)
@@ -282,7 +282,7 @@ Prose-forward format with sections:
 Content describes founders, Living Models platform mission, what we build, Humanitarians AI connection, and contact info.
 
 ## Legal Pages — DONE
-All three pages follow the Humanitarians AI structural template, rewritten for Living Models, LLC. Founded by Nik Bear Brown and Srinivas Sridhar. Each references: Living Models, LLC, 30 N Gould St Ste N, Sheridan WY 82801, livingmodels@humanitarians.ai, AI consulting services.
+All three pages follow the Humanitarians AI structural template, rewritten for Living Models. Founded by Nik Bear Brown and Chris Selland. Each references: Living Models, hello@livingmodels.org, AI consulting services.
 
 ### Privacy Policy (`/app/privacy/page.tsx`)
 Sections: introduction, information we collect (contact data, inquiry content, consulting engagement data, analytics), how we use info, sharing (consent, legitimate interests, contract, legal, vital interests), third-party services (Vercel, Neon, Substack, Anthropic, GitHub, YouTube), cookies reference (links to Cookie Policy page), data security, data retention, your privacy rights, children's privacy, changes, contact. Nav: Terms of Service ← → Cookie Policy.

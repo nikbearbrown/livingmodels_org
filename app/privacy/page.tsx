@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - Living Models, LLC',
-  description: 'Privacy policy for Living Models, LLC, AI consulting services, and livingmodels.org',
+  title: 'Privacy Policy - Hypothetical AI',
+  description: 'Privacy policy for Hypothetical AI and livingmodels.org',
 }
 
 export default function PrivacyPolicyPage() {
@@ -19,17 +19,16 @@ export default function PrivacyPolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
             <p>
-              Welcome to <strong>livingmodels.org</strong>, operated by <strong>Living Models, LLC</strong> (Nik Bear Brown &amp; Srinivas Sridhar),
-              a Wyoming limited liability company providing AI consulting services. We are committed to protecting your
-              personal information and your right to privacy. If you have any questions or concerns about this privacy
-              policy or our practices with regard to your personal information, please contact us at{' '}
-              <a href="mailto:livingmodels@humanitarians.ai" className="text-primary hover:underline">livingmodels@humanitarians.ai</a>.
+              Welcome to <strong>livingmodels.org</strong>, operated by <strong>Hypothetical AI</strong>.
+              We are committed to protecting your personal information and your right to privacy.
+              If you have any questions or concerns about this privacy policy or our practices with
+              regard to your personal information, please contact us at{' '}
+              <a href="mailto:hello@livingmodels.org" className="text-primary hover:underline">hello@livingmodels.org</a>.
             </p>
             <ul className="list-none pl-0 mt-4 space-y-1 text-base">
-              <li><strong>Company:</strong> Living Models, LLC (Nik Bear Brown &amp; Srinivas Sridhar)</li>
-              <li><strong>Address:</strong> 30 N Gould St Ste N, Sheridan, WY 82801</li>
+              <li><strong>Company:</strong> Hypothetical AI</li>
               <li><strong>Email:</strong>{' '}
-                <a href="mailto:livingmodels@humanitarians.ai" className="text-primary hover:underline">livingmodels@humanitarians.ai</a>
+                <a href="mailto:hello@livingmodels.org" className="text-primary hover:underline">hello@livingmodels.org</a>
               </li>
             </ul>
           </section>
@@ -103,7 +102,7 @@ export default function PrivacyPolicyPage() {
               <li><strong>YouTube:</strong> Video content hosting</li>
             </ul>
             <p className="mt-4">
-              We encourage you to review the privacy policies of these third-party services. Living Models, LLC is not
+              We encourage you to review the privacy policies of these third-party services. Hypothetical AI is not
               responsible for the privacy practices of external services.
             </p>
           </section>
@@ -196,13 +195,12 @@ export default function PrivacyPolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
             <p>
-              If you have questions or comments about this privacy policy, please contact Living Models, LLC:
+              If you have questions or comments about this privacy policy, please contact Hypothetical AI:
             </p>
             <ul className="list-none pl-0 mt-4 space-y-1 text-base">
               <li><strong>Email:</strong>{' '}
-                <a href="mailto:livingmodels@humanitarians.ai" className="text-primary hover:underline">livingmodels@humanitarians.ai</a>
+                <a href="mailto:hello@livingmodels.org" className="text-primary hover:underline">hello@livingmodels.org</a>
               </li>
-              <li><strong>Address:</strong> 30 N Gould St Ste N, Sheridan, WY 82801</li>
             </ul>
           </section>
         </div>

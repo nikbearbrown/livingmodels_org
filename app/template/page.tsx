@@ -86,51 +86,32 @@ export default function TemplatePage() {
           <section>
             <h2 className="text-3xl font-bold mb-6">Further Resources</h2>
             <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
-              <PrimaryButton href="https://github.com/Humanitariansai/">
+              <PrimaryButton href="https://github.com/Living-Models">
                 GitHub Repository
               </PrimaryButton>
-              <SecondaryButton href="https://www.youtube.com/@humanitariansai">
-                YouTube Channel
-              </SecondaryButton>
-              <SecondaryButton href="https://www.humanitarians.ai/">
-                Official Website
+              <SecondaryButton href="https://www.hypothetical.ai/">
+                Substack
               </SecondaryButton>
             </div>
-            
+
             <div className="mt-8 text-center">
-              <h3 className="text-lg font-semibold mb-2">Connect with Humanitarians AI</h3>
+              <h3 className="text-lg font-semibold mb-2">Connect with Living Models</h3>
               <div className="flex flex-wrap justify-center gap-4 mt-4">
-                <a 
-                  href="https://www.linkedin.com/company/105696953/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-primary hover:underline"
-                >
-                  LinkedIn
-                </a>
-                <a 
-                  href="https://www.youtube.com/@humanitariansai"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-primary hover:underline"
-                >
-                  YouTube
-                </a>
-                <a 
-                  href="https://www.humanitarians.ai/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-primary hover:underline"
-                >
-                  Website
-                </a>
-                <a 
-                  href="https://github.com/Humanitariansai/"
+                <a
+                  href="https://github.com/Living-Models"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-primary hover:underline"
                 >
                   GitHub
+                </a>
+                <a
+                  href="https://www.hypothetical.ai/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary hover:underline"
+                >
+                  Substack
                 </a>
               </div>
             </div>

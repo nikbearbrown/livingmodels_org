@@ -3,9 +3,8 @@
 import Link from 'next/link'
 
 const SOCIAL_LINKS = [
-  { name: 'GitHub', href: 'https://github.com/LivingModels' },
-  { name: 'Substack', href: 'https://livingmodels.substack.com/' },
-  { name: 'YouTube', href: 'https://youtube.com/playlist?list=PLIS8mRE04Mvoif0tBUlgNV52euT9E5q_e&si=jON2rhrasmimGth8' },
+  { name: 'GitHub', href: 'https://github.com/Living-Models' },
+  { name: 'Substack', href: 'https://www.hypothetical.ai/' },
 ]
 
 export default function Footer() {
@@ -17,28 +16,25 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
           {/* Company Info */}
           <div className="space-y-3">
-            <h3 className="text-sm font-semibold">Living Models, LLC</h3>
+            <h3 className="text-sm font-semibold">Hypothetical AI</h3>
             <div className="text-sm text-muted-foreground space-y-1">
-              <p>30 N Gould St Ste N</p>
-              <p>Sheridan, WY 82801</p>
               <p>
-                <a href="mailto:livingmodels@humanitarians.ai" className="hover:text-foreground transition-colors">
-                  livingmodels@humanitarians.ai
+                <a href="mailto:hello@livingmodels.org" className="hover:text-foreground transition-colors">
+                  hello@livingmodels.org
                 </a>
               </p>
-
             </div>
           </div>
 
-          {/* Placeholder column for future content */}
+          {/* Platform */}
           <div className="space-y-3">
             <h3 className="text-sm font-semibold">Platform</h3>
             <div className="flex flex-col gap-2">
-              <Link href="/blog" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <a href="https://www.hypothetical.ai/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 Blog
-              </Link>
-              <a href="https://hub.livingmodels.org/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Living Models Learning Hub
+              </a>
+              <a href="https://www.hypothetical.ai/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                Living Models Substack
               </a>
               <Link href="/livingmodels" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 What is Living Models?
@@ -50,11 +46,11 @@ export default function Footer() {
           <div className="space-y-3">
             <h3 className="text-sm font-semibold">Members</h3>
             <div className="flex flex-col gap-2">
-              <a href="https://www.nikbearbrown.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <a href="https://github.com/nikbearbrown" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 Nik Bear Brown
               </a>
-              <a href="https://srinivassridhar.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Srinivas Sridhar
+              <a href="https://www.linkedin.com/in/cselland/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                Chris Selland
               </a>
             </div>
           </div>
@@ -96,7 +92,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-8 pt-6 border-t text-center text-sm text-muted-foreground">
-          &copy; {currentYear} Living Models, LLC. All rights reserved.
+          &copy; {currentYear} Hypothetical AI. All rights reserved.
         </div>
       </div>
     </footer>

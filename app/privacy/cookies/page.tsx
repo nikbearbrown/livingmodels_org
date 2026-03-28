@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Cookie Policy - Living Models, LLC',
-  description: 'Cookie policy for Living Models, LLC and livingmodels.org',
+  title: 'Cookie Policy - Hypothetical AI',
+  description: 'Cookie policy for Hypothetical AI and livingmodels.org',
 }
 
 export default function CookiePolicyPage() {
@@ -21,14 +21,13 @@ export default function CookiePolicyPage() {
             <p>
               Cookies are small text files that are placed on your computer or mobile device when you visit a website.
               They are widely used to make websites work more efficiently and to provide information to website owners.
-              This Cookie Policy explains how <strong>Living Models, LLC</strong> uses cookies and similar technologies on{' '}
+              This Cookie Policy explains how <strong>Hypothetical AI</strong> uses cookies and similar technologies on{' '}
               <strong>livingmodels.org</strong>.
             </p>
             <ul className="list-none pl-0 mt-4 space-y-1 text-base">
-              <li><strong>Company:</strong> Living Models, LLC (Nik Bear Brown &amp; Srinivas Sridhar)</li>
-              <li><strong>Address:</strong> 30 N Gould St Ste N, Sheridan, WY 82801</li>
+              <li><strong>Company:</strong> Hypothetical AI</li>
               <li><strong>Email:</strong>{' '}
-                <a href="mailto:livingmodels@humanitarians.ai" className="text-primary hover:underline">livingmodels@humanitarians.ai</a>
+                <a href="mailto:hello@livingmodels.org" className="text-primary hover:underline">hello@livingmodels.org</a>
               </li>
             </ul>
           </section>
@@ -85,7 +84,7 @@ export default function CookiePolicyPage() {
             <p>
               Our website includes embedded content from third-party services. When these embeds load, the
               third-party provider may set their own cookies in your browser. These cookies are not controlled
-              by Living Models, LLC.
+              by Hypothetical AI.
             </p>
             <ul className="list-disc pl-6 mt-4 space-y-2">
               <li>
@@ -147,13 +146,13 @@ export default function CookiePolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
             <p>
-              If you have questions about our use of cookies, please contact Living Models, LLC:
+              If you have questions about our use of cookies, please contact Hypothetical AI:
             </p>
             <ul className="list-none pl-0 mt-4 space-y-1 text-base">
               <li><strong>Email:</strong>{' '}
-                <a href="mailto:livingmodels@humanitarians.ai" className="text-primary hover:underline">livingmodels@humanitarians.ai</a>
+                <a href="mailto:hello@livingmodels.org" className="text-primary hover:underline">hello@livingmodels.org</a>
               </li>
-              <li><strong>Address:</strong> 30 N Gould St Ste N, Sheridan, WY 82801</li>
+              <li><strong>Address:</strong> hello@livingmodels.org</li>
             </ul>
           </section>
         </div>

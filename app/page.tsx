@@ -6,57 +6,57 @@ const buttonOutline =
 
 const FEATURES = [
   {
-    title: 'CONVERSATIONAL TEXTBOOKS',
+    title: 'CAUSAL, NOT CORRELATIONAL',
     description:
-      'Living Models transforms static PDFs into interactive conversations. Students can ask questions in natural language and receive answers grounded in course-specific content, not generic internet responses.',
-    link: 'Learn more about conversational features',
+      'Living Models encodes mechanisms, not correlations. Recommendations are expressed as estimated interventional effects P(Y | do(X)) — not patterns observed in historical data.',
+    link: 'Learn about the causal foundation',
   },
   {
-    title: 'AI AS CO-INSTRUCTOR',
+    title: 'THE KNOWLEDGE ACQUISITION TOOL',
     description:
-      'Living Models automatically creates summaries, quizzes, exams, and lecture notes while keeping instructors in control. AI proposes, instructors dispose—preserving pedagogical expertise and teaching philosophy.',
-    link: 'Explore AI co-instruction capabilities',
+      'A structured expert interview that extracts implicit causal knowledge and converts it into a first-draft DAG in approximately 45 minutes — without requiring the expert to learn what a CPDAG is.',
+    link: 'Explore the interview architecture',
   },
   {
-    title: 'EFFORTLESS COURSE CREATION',
+    title: 'COUNTERFACTUAL REASONING',
     description:
-      'Import an OpenStax book or GitHub markdown repository and Living Models builds Canvas modules, generates assessments, and creates lecture materials. What used to take weeks becomes an afternoon of review.',
-    link: 'See how Living Models saves time',
+      'Living Models can reason about what would have happened under conditions that never occurred — evaluating the cost of decisions not taken as rigorously as decisions that were.',
+    link: 'See how counterfactuals work',
   },
   {
-    title: 'UNIFIED LEARNING PLATFORM',
+    title: 'TREATMENT-ORIENTED OUTPUT',
     description:
-      'Living Models unifies OpenStax textbooks, GitHub repositories, and existing Canvas content into a single, structured course experience—eliminating frustrating platform jumping for both students and instructors.',
-    link: 'Discover platform integration',
+      'The output is not a description or a prediction. It is a ranked list of interventions evaluated by Expected Value of Intervention, compared against the counterfactual trajectory.',
+    link: 'Understand intervention ranking',
   },
 ]
 
 const BENEFITS = [
   {
-    heading: 'FOR INSTRUCTORS',
+    heading: 'FOR STRATEGY EXECUTIVES',
     items: [
-      'Cut course build time from weeks to hours',
-      'Keep full editorial control over content',
-      'Align AI-generated content with your teaching style',
-      'Gain a "co-instructor" that knows your course',
+      'Get causal answers to intervention questions, not correlation summaries',
+      'Understand which levers actually move the outcomes you care about',
+      'Receive ranked recommendations with auditable evidence and assumptions',
+      'Know the expected cost of inaction, not just the expected value of action',
     ],
   },
   {
-    heading: 'FOR STUDENTS',
+    heading: 'FOR DATA SCIENTISTS',
     items: [
-      'Access a cohesive course where textbooks answer questions',
-      'Receive personalized explanations aligned with learning style',
-      'Spend less time hunting for materials',
-      'Focus more time on understanding concepts',
+      'Start from an expert-originated causal graph instead of building one from scratch',
+      'Use the Knowledge Acquisition Tool output as structured input to NOTEARS / PC / GES',
+      'Apply Double Machine Learning on a correctly specified causal structure',
+      'Move from author to editor of the causal model',
     ],
   },
   {
-    heading: 'FOR ADMINISTRATORS',
+    heading: 'FOR ORGANIZATIONS',
     items: [
-      'Rapidly deploy consistent, high-quality courses',
-      'Maintain FERPA-compliant architecture',
-      'Track version history with unpublished-by-default workflow',
-      'Implement best-practice AI principles',
+      'Invert the standard workflow: extract knowledge first, formalize second',
+      'Prevent wrong-model confidence — precise wrongness with tight confidence intervals',
+      'Build decision intelligence that updates as new data arrives',
+      'Surface the boundary of what your analytics can and cannot see',
     ],
   },
 ]
@@ -73,24 +73,18 @@ export default function Home() {
                 Living Models
               </h1>
               <p className="text-lg text-muted-foreground">
-                Also known as Medhavi
+                Causal Intelligence for the Decisions That Actually Matter
               </p>
               <p className="max-w-[540px] text-lg leading-relaxed">
-                <strong className="font-bold">
-                  मेधावी (Medhavy): From Sanskrit, meaning &ldquo;intelligent&rdquo; or
-                  &ldquo;intellectually brilliant&rdquo;
-                </strong>
-                {' — the perfect name for our AI-powered intelligent textbook system.'}
-              </p>
-              <p className="max-w-[540px] text-lg italic text-muted-foreground">
-                Come learn something
+                Most analytics systems are built to describe the past. Living Models is built to
+                reason about what happens when you change something.
               </p>
               <div className="flex flex-wrap gap-3 pt-2">
-                <a href="mailto:livingmodels@humanitarians.ai" className={buttonStyles}>
-                  Request Demo
+                <a href="https://www.hypothetical.ai/" target="_blank" rel="noopener noreferrer" className={buttonStyles}>
+                  Read the Substack
                 </a>
-                <a href="mailto:livingmodels@humanitarians.ai" className={buttonOutline}>
-                  Contact Us
+                <a href="https://github.com/Living-Models" target="_blank" rel="noopener noreferrer" className={buttonOutline}>
+                  View on GitHub
                 </a>
               </div>
             </div>
@@ -116,12 +110,11 @@ export default function Home() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="text-center mb-12 max-w-3xl mx-auto">
             <h2 className="text-sm font-semibold tracking-widest uppercase text-muted-foreground mb-3">
-              Transform Your Textbooks
+              Causal Decision Architecture
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Living Models turns static textbooks into a living, AI-curated course that runs
-              alongside Canvas—combining automation with instructor control to deliver effortless,
-              personalized, and emotionally intelligent learning at scale.
+              Living Models is a causal decision-support architecture that is causal, counterfactual,
+              continually updated, and treatment-oriented.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2">
@@ -156,7 +149,7 @@ export default function Home() {
               Who Benefits from Living Models?
             </h2>
             <p className="text-lg text-background/70 max-w-2xl mx-auto">
-              Living Models creates value for everyone involved in the educational ecosystem.
+              Living Models creates value for everyone involved in the decision-making ecosystem.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
@@ -188,31 +181,35 @@ export default function Home() {
       <section className="w-full py-16 md:py-24 bg-[var(--bb-2)] text-white">
         <div className="container px-4 md:px-6 mx-auto text-center">
           <h2 className="text-sm font-semibold tracking-widest uppercase text-white/60 mb-3">
-            Ready to Transform Your Courses?
+            The Question Was Always the Problem
           </h2>
           <p className="text-lg text-white/80 max-w-3xl mx-auto mb-10 leading-relaxed">
-            Living Models turns any textbook into an AI-curated, conversational, and empathetic
-            course that reads and writes to Canvas—unifying fragmented content, reducing faculty workload, and
-            giving students effortless, human-centered access to knowledge.
+            The data was never the problem. It was always the question. Living Models is the attempt
+            to build decision-support architecture that tells you not just what happened and what is
+            likely to happen — but what you should do about it, and why that action and not another.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="mailto:livingmodels@humanitarians.ai"
+              href="https://www.hypothetical.ai/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex h-10 items-center justify-center rounded-md px-8 text-sm font-bold tracking-wide transition-colors bg-white text-[var(--bb-2)] shadow hover:bg-white/90"
             >
-              REQUEST A DEMO
+              READ THE SERIES
             </a>
             <a
-              href="/about"
+              href="https://github.com/Living-Models"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex h-10 items-center justify-center rounded-md px-8 text-sm font-bold tracking-wide transition-colors border border-white/30 text-white hover:bg-white/10"
             >
-              LEARN MORE
+              VIEW README
             </a>
             <a
-              href="mailto:livingmodels@humanitarians.ai"
+              href="mailto:hello@livingmodels.org"
               className="inline-flex h-10 items-center justify-center rounded-md px-8 text-sm font-bold tracking-wide transition-colors border border-white/30 text-white hover:bg-white/10"
             >
-              CONTACT US
+              GET IN TOUCH
             </a>
           </div>
         </div>
@@ -225,14 +222,13 @@ export default function Home() {
             Let&apos;s Collaborate
           </h2>
           <p className="max-w-[600px] mx-auto text-background/70 text-lg mb-8">
-            Whether you need an adaptive learning platform, a white-label deployment
-            for your institution, or a research partnership — let&apos;s talk.
+            Whether you need causal decision-support infrastructure, a research partnership,
+            or want to contribute to the project — let&apos;s talk.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              { name: 'YouTube', href: 'https://youtube.com/playlist?list=PLIS8mRE04Mvoif0tBUlgNV52euT9E5q_e&si=jON2rhrasmimGth8' },
-              { name: 'GitHub', href: 'https://github.com/LivingModels' },
-              { name: 'Humanitarians AI', href: 'https://humanitarians.ai' },
+              { name: 'Substack', href: 'https://www.hypothetical.ai/' },
+              { name: 'GitHub', href: 'https://github.com/Living-Models' },
             ].map((link) => (
               <a
                 key={link.name}

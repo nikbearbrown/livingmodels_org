@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Tools - Living Models',
-  description: 'AI tools directory curated by Living Models.',
+  description: 'Tools and resources curated by Living Models.',
 }
 
 interface Tool {

@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Books - Living Models',
-  description: 'The companion book series for the Living Models curriculum.',
+  description: 'The companion book series for Living Models.',
 }
 
 export default function BooksPage() {
@@ -18,7 +18,7 @@ export default function BooksPage() {
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold tracking-tighter mb-4">Books</h1>
         <p className="text-muted-foreground mb-10">
-          The companion book series for the Living Models curriculum.
+          The companion book series for Living Models.
         </p>
         <BooksBrowser books={books} />
       </div>

@@ -22,7 +22,7 @@ const sql = neon(process.env.DATABASE_URL!)
 const title = 'AI Adoption Across Industries — What the Data Shows'
 const subtitle = 'A look at where AI is gaining real traction'
 const slug = 'ai-adoption-across-industries'
-const byline = `Living Models builds adaptive learning infrastructure — white-label, institution-deployable AI education tools that help organizations deliver personalized learning at scale. Founded at the intersection of AI research and education practice, Living Models makes advanced learning technology accessible to every institution.
+const byline = `Living Models builds causal decision-support architecture — tools that encode mechanisms, not correlations, and produce ranked interventions evaluated by expected value. Founded at the intersection of AI research and causal inference.
 Learn more at https://www.livingmodels.org/`
 
 const content = `<p>Artificial intelligence is no longer a uniform phenomenon. Adoption rates vary dramatically by sector, shaped by regulatory environment, data availability, and organizational appetite for change.</p>

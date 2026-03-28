@@ -12,8 +12,8 @@ import { cn } from '@/lib/utils'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Living Models',
-  description: 'Adaptive learning platform — white-label, institution-deployable AI education infrastructure.',
+  title: 'Living Models — Causal Intelligence for the Decisions That Actually Matter',
+  description: 'A causal decision-support architecture that is causal, counterfactual, continually updated, and treatment-oriented.',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
