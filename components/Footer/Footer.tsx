@@ -3,7 +3,7 @@
 import Link from 'next/link'
 
 const SOCIAL_LINKS = [
-  { name: 'GitHub', href: 'https://github.com/Living-Models' },
+  { name: 'GitHub', href: 'https://github.com/nikbearbrown/Living-Models' },
   { name: 'Substack', href: 'https://www.hypothetical.ai/' },
 ]
 

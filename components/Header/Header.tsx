@@ -9,12 +9,12 @@ import ThemeToggle from '@/components/ThemeToggle'
 
 const NAV_ITEMS = [
   { name: 'Blog', href: '/blog' },
-  { name: 'Substack', href: 'https://www.hypothetical.ai/' },
   { name: 'What is Living Models?', href: '/livingmodels' },
 ]
 
 const SOCIAL_LINKS = [
-  { name: 'GitHub', href: 'https://github.com/Living-Models' },
+  { name: 'Substack', href: 'https://www.hypothetical.ai/' },
+  { name: 'GitHub', href: 'https://github.com/nikbearbrown/Living-Models' },
 ]
 
 const buttonStyles =

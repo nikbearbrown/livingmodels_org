@@ -83,7 +83,7 @@ export default function Home() {
                 <a href="https://www.hypothetical.ai/" target="_blank" rel="noopener noreferrer" className={buttonStyles}>
                   Read the Substack
                 </a>
-                <a href="https://github.com/Living-Models" target="_blank" rel="noopener noreferrer" className={buttonOutline}>
+                <a href="https://github.com/nikbearbrown/Living-Models" target="_blank" rel="noopener noreferrer" className={buttonOutline}>
                   View on GitHub
                 </a>
               </div>
@@ -198,7 +198,7 @@ export default function Home() {
               READ THE SERIES
             </a>
             <a
-              href="https://github.com/Living-Models"
+              href="https://github.com/nikbearbrown/Living-Models"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-10 items-center justify-center rounded-md px-8 text-sm font-bold tracking-wide transition-colors border border-white/30 text-white hover:bg-white/10"
@@ -228,7 +228,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-center gap-4">
             {[
               { name: 'Substack', href: 'https://www.hypothetical.ai/' },
-              { name: 'GitHub', href: 'https://github.com/Living-Models' },
+              { name: 'GitHub', href: 'https://github.com/nikbearbrown/Living-Models' },
             ].map((link) => (
               <a
                 key={link.name}

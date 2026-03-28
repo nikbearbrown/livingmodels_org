@@ -86,7 +86,7 @@ export default function TemplatePage() {
           <section>
             <h2 className="text-3xl font-bold mb-6">Further Resources</h2>
             <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
-              <PrimaryButton href="https://github.com/Living-Models">
+              <PrimaryButton href="https://github.com/nikbearbrown/Living-Models">
                 GitHub Repository
               </PrimaryButton>
               <SecondaryButton href="https://www.hypothetical.ai/">
@@ -98,7 +98,7 @@ export default function TemplatePage() {
               <h3 className="text-lg font-semibold mb-2">Connect with Living Models</h3>
               <div className="flex flex-wrap justify-center gap-4 mt-4">
                 <a
-                  href="https://github.com/Living-Models"
+                  href="https://github.com/nikbearbrown/Living-Models"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-primary hover:underline"

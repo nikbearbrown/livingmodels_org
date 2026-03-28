@@ -55,7 +55,7 @@ export default function AboutPage() {
               <a href="mailto:hello@livingmodels.org" className="text-primary hover:underline">hello@livingmodels.org</a>.
             </p>
             <div className="flex flex-wrap gap-4 mt-4 not-prose">
-              <a href="https://github.com/Living-Models" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/nikbearbrown/Living-Models" target="_blank" rel="noopener noreferrer"
                 className="inline-flex h-10 items-center justify-center rounded-md px-8 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-black text-white shadow hover:bg-gray-800 dark:border dark:border-input dark:bg-background dark:text-foreground dark:shadow-sm dark:hover:bg-accent dark:hover:text-accent-foreground">
                 GitHub
               </a>
