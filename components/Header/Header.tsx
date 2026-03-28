@@ -14,6 +14,7 @@ const NAV_ITEMS = [
 
 const SOCIAL_LINKS = [
   { name: 'Substack', href: 'https://www.hypothetical.ai/' },
+  { name: 'YouTube', href: 'https://www.youtube.com/playlist?list=PLIS8mRE04MvrKhFUp6CiEhG0xBuIWQijN' },
   { name: 'GitHub', href: 'https://github.com/nikbearbrown/Living-Models' },
 ]
 
